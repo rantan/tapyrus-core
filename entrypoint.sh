@@ -19,8 +19,6 @@ networkid=1905960821
 EOS
 fi
 
-chmod 600 ${CONF_DIR}/tapyrus.conf
-
 network_id=`cat ${CONF_DIR}/tapyrus.conf | grep networkid= | grep -oE "[0-9]+"`
 
 if [ -v GENESIS_BLOCK_WITH_SIG -a ! -e ${DATA_DIR}/genesis.${network_id} ]; then
