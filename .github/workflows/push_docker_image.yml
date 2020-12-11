@@ -10,7 +10,7 @@ on:
 
 jobs:
   multi:
-    if: ${{ fromJson(steps.repo.outputs.result).full_name == "chaintope/tapyrus-core" }}
+    if: ${{ github.repository == "chaintope/tapyrus-core" }}
     runs-on: ubuntu-latest
     steps:
       -
