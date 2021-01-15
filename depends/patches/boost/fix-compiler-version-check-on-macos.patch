@@ -1,11 +1,7 @@
-Index: src/tools/darwin.jam
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
+Index: tools/build/src/tools/darwin.jam
 diff --git a/src/tools/darwin.jam b/src/tools/darwin.jam
---- a/src/tools/darwin.jam	(revision ac2c8d6b277ab4b4f8469b2d4186376809bd4532)
-+++ b/src/tools/darwin.jam	(revision b3a59d265929a213f02a451bb63cea75d668a4d9)
+--- a/tools/build/src/tools/darwin.jam
++++ b/tools/build/src/tools/darwin.jam
 @@ -137,13 +137,14 @@
      # - Set the toolset generic common options.
      common.handle-options darwin : $(condition) : $(command) : $(options) ;
