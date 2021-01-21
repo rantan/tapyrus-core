@@ -4,7 +4,10 @@ qt_packages = qrencode zlib
 
 qt_linux_packages:=qt expat dbus libxcb xcb_proto libXau xproto freetype fontconfig libX11 xextproto libXext xtrans
 
-qt_darwin_packages=qt
+# TODO: Enable qt build
+#qt_darwin_packages=qt
+qt_darwin_packages=
+
 qt_mingw32_packages=qt
 
 wallet_packages=bdb
